@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { @apply bg-white text-neutral-800 dark:bg-neutral-950 dark:text-neutral-100; }
+.section { @apply py-12 md:py-16; }
+.container { @apply max-w-6xl mx-auto px-4; }
+
+.card { @apply rounded-2xl border border-neutral-200/60 dark:border-neutral-800/60 bg-white/70 dark:bg-neutral-900/60 backdrop-blur-sm shadow-sm; }
+.badge { @apply inline-flex items-center gap-1 rounded-full border border-neutral-200/60 dark:border-neutral-800/60 px-3 py-1 text-xs font-medium; }
+
+a { @apply underline-offset-4 hover:underline; }
+h1,h2,h3 { @apply tracking-tight; }
+
+/* Diagonal split hero */
+.diagonal-hero { display: grid; grid-template-columns: 1fr 1fr; background: transparent; }
+.hero-left { position: relative; background: #e9eaee; padding-right: 5vw; clip-path: polygon(0 0, 86% 0, 100% 100%, 0% 100%); }
+.hero-right { position: relative; background: #0a0a0a; }
+
+.social-btn { display:inline-flex; height:44px; width:44px; align-items:center; justify-content:center; border-radius:10px; background:#ffffff; border:1px solid rgba(0,0,0,0.08); color:#111; transition: transform .12s ease, background .12s ease, box-shadow .12s ease; }
+.social-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+
+@media (max-width: 900px) {
+  .diagonal-hero { grid-template-columns: 1fr; }
+  .hero-left { clip-path: none; padding-right: 0; }
+  .hero-right { display: none; }
+}
