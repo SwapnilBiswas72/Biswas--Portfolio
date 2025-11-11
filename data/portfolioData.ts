@@ -19,15 +19,80 @@ export const portfolioData = {
     { period: "2019–2023", degree: "B.Sc. in Computer Science and Engineering", institution: "United International University, Dhaka, Bangladesh", cgpa: "3.88/4.00 (Top 2%)" },
     { period: "2016–2018", degree: "Higher Secondary Certificate", institution: "Dhaka City College, Dhaka, Bangladesh", cgpa: "5.00/5.00" }
   ],
-  publications: [
-    { title: "Advancing Skin Lesion Classification: The Role of SAM-Based Segmentation in Enhancing CNN Performance", authors: [{name:"S. Biswas"},{name:"S. M. M. Raza"},{name:"T. H. Nguyen"},{name:"R. W. LeAnder"},{name:"S. E. Umbaugh"}], subtitle: "Proc. SPIE 13605 (2025)", image: "/placeholder.svg", links: { paper: "https://doi.org/10.1117/12.3065735", code: "" } },
-    { title: "LVM-Med-Based Thermographic Image Analysis for Canine Bone Cancer Detection", authors: [{name:"S. M. M. Raza"},{name:"S. Biswas"},{name:"R. W. LeAnder"},{name:"S. E. Umbaugh"}], subtitle: "Proc. SPIE 13605 (2025)", image: "/placeholder.svg", links: { paper: "https://doi.org/10.1117/12.3060176", code: "" } },
-    { title: "Hybrid Image Enhancement for Thermographic Imaging in Canine Bone Cancer Detection", authors: [{name:"M. S. U. Hoque"},{name:"S. Biswas"},{name:"M. S. Sakib"},{name:"R. Leander"},{name:"S. E. Umbaugh"}], subtitle: "Thermosense XLVII, Proc. SPIE 13470 (2025)", image: "/placeholder.svg", links: { paper: "https://doi.org/10.1117/12.3053308", code: "" } },
-    { title: "A Bidirectional Siamese RNN for Accurate Gait Recognition", authors: [{name:"Proma Hossain Progga"},{name:"Md Jobayer Rahman"},{name:"Swapnil Biswas"},{name:"Md. Shakil Ahmed"},{name:"Arif Reza Anwary"},{name:"Swakkhar Shatabda"}], subtitle: "Neurocomputing, 2024", image: "/placeholder.svg", links: { paper: "https://doi.org/10.1016/j.neucom.2024.128313", code: "" } },
-    { title: "CropCare: Advanced Crop Management System with Intelligent Advisory and Machine Learning Techniques", authors: [{name:"Md. Jobayer Rahman"},{name:"Md. Shakil Ahmed"},{name:"Swapnil Biswas"},{name:"Anika Tabassum Orchi"},{name:"Raiyan Rahman"},{name:"A.K.M. Muzahidul Islam"}], subtitle: "IEEE ICEEICT, 2024", image: "/placeholder.svg", links: { paper: "https://doi.org/10.1109/ICEEICT62016.2024.10534582", code: "" } },
-    { title: "K-Nearest Neighbour Classifier for Big Data Mining based on Informative Instances", authors: [{name:"Proma Hossain Progga"},{name:"Md Jobayer Rahman"},{name:"Swapnil Biswas"},{name:"Md. Shakil Ahmed"},{name:"Dewan Md Farid"}], subtitle: "IEEE I2CT, 2023", image: "/placeholder.svg", links: { paper: "https://doi.org/10.1109/I2CT57861.2023.10126147", code: "" } },
-    { title: "Machine Learning for Load Forecasting in a Green Data Center", authors: [{name:"Md. Shakil Ahmed"},{name:"Swapnil Biswas"},{name:"Md Jobayer Rahman"},{name:"Md Habibur Rahaman Alhadi"},{name:"Rifat Ara Moon"},{name:"Md Motaharul Islam"}], subtitle: "IEEE, 2023", image: "/placeholder.svg", links: { paper: "https://doi.org/10.1109/STI59863.2023.10464816", code: "" } }
-  ],
+publications: [
+  {
+    title: "Advancing Skin Lesion Classification: The Role of SAM-Based Segmentation in Enhancing Convolutional Neural Network Performance",
+    authors: "S. Biswas, S. M. M. Raza, T. H. Nguyen, R. W. LeAnder, S. E. Umbaugh",
+    year: 2025,
+    venue: "Proc. SPIE 13605, Applications of Digital Image Processing XLVIII; 136050D, San Diego, CA",
+    doi: "10.1117/12.3065735",
+    link: "https://doi.org/10.1117/12.3065735"
+  },
+  {
+    title: "LVM-Med-Based Thermographic Image Analysis for Canine Bone Cancer Detection",
+    authors: "S. M. M. Raza, S. Biswas, R. W. LeAnder, S. E. Umbaugh",
+    year: 2025,
+    venue: "Proc. SPIE 13605, Applications of Digital Image Processing XLVIII, San Diego, CA",
+    doi: "10.1117/12.3060176",
+    link: "https://doi.org/10.1117/12.3060176"
+  },
+  {
+    title: "Hybrid Image Enhancement for Thermographic Imaging in Canine Bone Cancer Detection",
+    authors: "M. S. U. Hoque, S. Biswas, M. S. Sakib, R. LeAnder, S. E. Umbaugh",
+    year: 2025,
+    venue: "Thermosense: Thermal Infrared Applications XLVII, Proc. SPIE 13470, 156–164",
+    doi: "10.1109/ICCTA64612.2024.10974770",
+    link: "https://doi.org/10.1109/ICCTA64612.2024.10974770"
+  },
+  {
+    title: "Analysis of MDE-Based Gamification Framework for Cognitive Evaluation",
+    authors: "M. Islam, S. Biswas, M. S. Ahmed, M. J. Rahman, A. R. Hasan, A. Amin, et al.",
+    year: 2024,
+    venue: "34th International Conference on Computer Theory and Applications (ICCTA)",
+    doi: "10.1109/ICCTA64612.2024.10974770",
+    link: "https://doi.org/10.1109/ICCTA64612.2024.10974770"
+  },
+  {
+    title: "A Bidirectional Siamese RNN for Accurate Gait Recognition",
+    authors: "Progga, P. H., Rahman, M. J., Biswas, S., et al.",
+    year: 2024,
+    venue: "Neurocomputing, 605, 128313",
+    doi: "10.1016/j.neucom.2024.128313",
+    link: "https://doi.org/10.1016/j.neucom.2024.128313"
+  },
+  {
+    title: "CropCare: Intelligent Advisory System",
+    authors: "Rahman, M. J., Ahmed, M. S., Biswas, S., et al.",
+    year: 2024,
+    venue: "IEEE ICEEICT",
+    doi: "10.1109/ICEEICT62016.2024.10534582",
+    link: "https://doi.org/10.1109/ICEEICT62016.2024.10534582"
+  },
+  {
+    title: "Predicting Efficient CPU Scheduling Algorithm",
+    authors: "Biswas, S., Ahmed, M. S., et al.",
+    year: 2023,
+    venue: "IEEE STI",
+    doi: "10.1109/STI59863.2023.10464816",
+    link: "https://doi.org/10.1109/STI59863.2023.10464816"
+  },
+  {
+    title: "Informative Instance-Based KNN for Big Data",
+    authors: "Progga, P. H., Rahman, M. J., Biswas, S., et al.",
+    year: 2023,
+    venue: "IEEE I2CT",
+    doi: "10.1109/I2CT57861.2023.10126147",
+    link: "https://doi.org/10.1109/I2CT57861.2023.10126147"
+  },
+  {
+    title: "Machine Learning for Load Forecasting in Green Data Center",
+    authors: "Ahmed, M. S., Biswas, S., et al.",
+    year: 2022,
+    venue: "IEEE STI",
+    doi: "10.1109/STI56238.2022.10103320",
+    link: "https://doi.org/10.1109/STI56238.2022.10103320"
+  }
+],
   under_review: [
     { title: "Data-Driven Approaches to Personalized Gamification: Recent Advances, Trends and Future Directions", journal: "IEEE Transactions on Human-Machine Systems" },
     { title: "Personality-Based Preference Prediction in the Metaverse: From Personality Traits to User Engagement", journal: "Knowledge and Information Systems (Springer)" }
