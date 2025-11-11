@@ -9,6 +9,7 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-[72vh] md:min-h-[82vh] overflow-hidden diagonal-hero">
+      {/* Left light panel */}
       <div className="hero-left">
         <div className="mx-auto w-full max-w-3xl px-6 md:px-10 py-16 md:py-24">
           <div className="mb-10 md:mb-16">
@@ -21,10 +22,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <p className="max-w-2xl text-neutral-700 text-base md:text-lg leading-relaxed">
-            {a.description}
-          </p>
-
+          {/* Social icons only */}
           <div className="mt-8 flex items-center gap-3">
             <a href={`mailto:${a.contact}`} className="social-btn" aria-label="Email" title="Email">
               <Mail className="h-5 w-5" />
@@ -43,6 +41,7 @@ export default function Hero() {
         </div>
       </div>
 
+      {/* Right dark panel with photo */}
       <div className="hero-right">
         <div className="relative h-full w-full">
           <img
@@ -51,12 +50,6 @@ export default function Hero() {
             className="absolute bottom-0 right-4 md:right-12 h-[56vh] md:h-[72vh] object-contain select-none drop-shadow-[0_24px_48px_rgba(0,0,0,0.35)]"
           />
         </div>
-      </div>
-
-      <div className="absolute left-6 bottom-6 md:hidden">
-        <a href="#contact">
-          <Button className="bg-neutral-900 text-white rounded-full px-6 py-2">Contact me</Button>
-        </a>
       </div>
     </section>
   )
