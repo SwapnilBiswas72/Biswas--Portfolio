@@ -14,12 +14,7 @@ export const portfolioData = {
     }
   },
 
-  research_interests: [
-    "Deep Learning",
-    "Medical Image Analysis",
-    "Computer Vision",
-    "Image Processing"
-  ],
+  research_interests: ["Deep Learning", "Medical Image Analysis", "Computer Vision", "Image Processing"],
 
   education: [
     {
@@ -57,11 +52,10 @@ export const portfolioData = {
       venue:
         "Proc. SPIE 13605, Applications of Digital Image Processing XLVIII; 136050D, San Diego, CA",
       doi: "10.1117/12.3065735",
-      link: "https://doi.org/10.1117/12.3065735"
+      links: { paper: "https://doi.org/10.1117/12.3065735" }
     },
     {
-      title:
-        "LVM-Med-Based Thermographic Image Analysis for Canine Bone Cancer Detection",
+      title: "LVM-Med-Based Thermographic Image Analysis for Canine Bone Cancer Detection",
       authors: [
         { name: "S. M. M. Raza" },
         { name: "S. Biswas" },
@@ -69,14 +63,12 @@ export const portfolioData = {
         { name: "S. E. Umbaugh" }
       ],
       year: 2025,
-      venue:
-        "Proc. SPIE 13605, Applications of Digital Image Processing XLVIII, San Diego, CA",
+      venue: "Proc. SPIE 13605, Applications of Digital Image Processing XLVIII, San Diego, CA",
       doi: "10.1117/12.3060176",
-      link: "https://doi.org/10.1117/12.3060176"
+      links: { paper: "https://doi.org/10.1117/12.3060176" }
     },
     {
-      title:
-        "Hybrid Image Enhancement for Thermographic Imaging in Canine Bone Cancer Detection",
+      title: "Hybrid Image Enhancement for Thermographic Imaging in Canine Bone Cancer Detection",
       authors: [
         { name: "M. S. U. Hoque" },
         { name: "S. Biswas" },
@@ -85,14 +77,12 @@ export const portfolioData = {
         { name: "S. E. Umbaugh" }
       ],
       year: 2025,
-      venue:
-        "Thermosense: Thermal Infrared Applications XLVII, Proc. SPIE 13470, 156–164",
+      venue: "Thermosense: Thermal Infrared Applications XLVII, Proc. SPIE 13470, 156–164",
       doi: "10.1109/ICCTA64612.2024.10974770",
-      link: "https://doi.org/10.1109/ICCTA64612.2024.10974770"
+      links: { paper: "https://doi.org/10.1109/ICCTA64612.2024.10974770" }
     },
     {
-      title:
-        "Analysis of MDE-Based Gamification Framework for Cognitive Evaluation",
+      title: "Analysis of MDE-Based Gamification Framework for Cognitive Evaluation",
       authors: [
         { name: "M. Islam" },
         { name: "S. Biswas" },
@@ -103,14 +93,12 @@ export const portfolioData = {
         { name: "et al." }
       ],
       year: 2024,
-      venue:
-        "34th International Conference on Computer Theory and Applications (ICCTA)",
+      venue: "34th International Conference on Computer Theory and Applications (ICCTA)",
       doi: "10.1109/ICCTA64612.2024.10974770",
-      link: "https://doi.org/10.1109/ICCTA64612.2024.10974770"
+      links: { paper: "https://doi.org/10.1109/ICCTA64612.2024.10974770" }
     },
     {
-      title:
-        "A Bidirectional Siamese RNN for Accurate Gait Recognition",
+      title: "A Bidirectional Siamese RNN for Accurate Gait Recognition",
       authors: [
         { name: "P. H. Progga" },
         { name: "M. J. Rahman" },
@@ -120,7 +108,7 @@ export const portfolioData = {
       year: 2024,
       venue: "Neurocomputing, 605, 128313",
       doi: "10.1016/j.neucom.2024.128313",
-      link: "https://doi.org/10.1016/j.neucom.2024.128313"
+      links: { paper: "https://doi.org/10.1016/j.neucom.2024.128313" }
     },
     {
       title: "CropCare: Intelligent Advisory System",
@@ -133,7 +121,7 @@ export const portfolioData = {
       year: 2024,
       venue: "IEEE ICEEICT",
       doi: "10.1109/ICEEICT62016.2024.10534582",
-      link: "https://doi.org/10.1109/ICEEICT62016.2024.10534582"
+      links: { paper: "https://doi.org/10.1109/ICEEICT62016.2024.10534582" }
     },
     {
       title: "Predicting Efficient CPU Scheduling Algorithm",
@@ -145,7 +133,7 @@ export const portfolioData = {
       year: 2023,
       venue: "IEEE STI",
       doi: "10.1109/STI59863.2023.10464816",
-      link: "https://doi.org/10.1109/STI59863.2023.10464816"
+      links: { paper: "https://doi.org/10.1109/STI59863.2023.10464816" }
     },
     {
       title: "Informative Instance-Based KNN for Big Data",
@@ -158,7 +146,7 @@ export const portfolioData = {
       year: 2023,
       venue: "IEEE I2CT",
       doi: "10.1109/I2CT57861.2023.10126147",
-      link: "https://doi.org/10.1109/I2CT57861.2023.10126147"
+      links: { paper: "https://doi.org/10.1109/I2CT57861.2023.10126147" }
     },
     {
       title: "Machine Learning for Load Forecasting in Green Data Center",
@@ -170,7 +158,7 @@ export const portfolioData = {
       year: 2022,
       venue: "IEEE STI",
       doi: "10.1109/STI56238.2022.10103320",
-      link: "https://doi.org/10.1109/STI56238.2022.10103320"
+      links: { paper: "https://doi.org/10.1109/STI56238.2022.10103320" }
     }
   ],
 
@@ -203,9 +191,7 @@ export const portfolioData = {
       position: "Graduate Teaching Assistant",
       institution: "Southern Illinois University Edwardsville",
       period: "Summer 2025 – Present",
-      courses: [
-        "Assisted with undergraduate courses, grading assignments, and providing academic support to students."
-      ]
+      courses: ["Assisted with undergraduate courses, grading assignments, and providing academic support to students."]
     },
     {
       position: "Research Engineer",
@@ -235,8 +221,7 @@ export const portfolioData = {
     {
       title: "Protibaad",
       type: "Industry Project",
-      description:
-        "Crime alerts, missing person reports, and opinion surveys with a blog for community issues.",
+      description: "Crime alerts, missing person reports, and opinion surveys with a blog for community issues.",
       domain: ["PHP", "MySQL", "HTML", "JavaScript", "Bootstrap"]
     },
     {
@@ -249,8 +234,7 @@ export const portfolioData = {
     {
       title: "Online Food Ordering System",
       type: "Industry Project",
-      description:
-        "Ordering and delivery app with real-time order tracking and user-friendly interfaces.",
+      description: "Ordering and delivery app with real-time order tracking and user-friendly interfaces.",
       domain: ["Java", "JavaFX", "Sockets", "Multi-threading"]
     }
   ],
@@ -275,17 +259,7 @@ export const portfolioData = {
   skills: {
     programming: ["Python", "Java", "C", "C++", "JavaScript"],
     web: ["HTML", "CSS", "PHP"],
-    tools: [
-      "PyTorch",
-      "TensorFlow",
-      "Scikit-learn",
-      "OpenCV",
-      "Pandas",
-      "NumPy",
-      "MySQL",
-      "LaTeX",
-      "Google Colab"
-    ],
+    tools: ["PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "Pandas", "NumPy", "MySQL", "LaTeX", "Google Colab"],
     soft: ["Communication", "Teamwork", "Problem Solving", "Leadership"]
   }
 };
