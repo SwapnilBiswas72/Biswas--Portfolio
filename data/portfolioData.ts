@@ -8,7 +8,7 @@ export const portfolioData = {
     links: {
       linkedin: "https://www.linkedin.com/in/swapnil-biswas-6447b5218",
       scholar: "https://scholar.google.com/citations?user=-BgBK3kAAAAJ&hl=en&authuser=1",
-      portfolio: "https://biswas-swapnil.vercel.app/",
+      portfolio: "https://swapnil-biswas-portfolio-swapnil-biswas-projects-922f11aa.vercel.app/",
       github: "https://github.com/SwapnilBiswas72",
       cv: "/cv/Biswas_Swapnil_Resume.pdf"
     }
